@@ -31,23 +31,28 @@
     </option>
   </component>
   <component name="ProjectId" id="1nKS0siQlerAI6CoYsEovj4AEoR" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assests/icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dell\Desktop\My_Profile" />
+      <recent name="C:\Users\dell\Desktop\My_Profile\assests" />
+      <recent name="C:\Users\dell\Desktop\My_Profile\assests\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dell\Desktop\My_Profile\assests\icons" />
       <recent name="C:\Users\dell\Desktop\My_Profile" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\dell\Desktop\My_Profile\assests" />
-      <recent name="C:\Users\dell\Desktop\My_Profile" />
-      <recent name="C:\Users\dell\Desktop\My_Profile\assests\img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -85,6 +90,23 @@
       <workItem from="1611339425290" duration="9699000" />
       <workItem from="1611349528185" duration="87000" />
       <workItem from="1611349652217" duration="54000" />
+      <workItem from="1611350264157" duration="24000" />
+      <workItem from="1611375487539" duration="1281000" />
+      <workItem from="1611406262550" duration="879000" />
+      <workItem from="1611409334214" duration="3000" />
+      <workItem from="1611409702995" duration="869000" />
+      <workItem from="1611410888387" duration="87000" />
+      <workItem from="1611410993477" duration="719000" />
+      <workItem from="1611415111438" duration="23000" />
+      <workItem from="1611420023815" duration="601000" />
+      <workItem from="1611425738095" duration="514000" />
+      <workItem from="1611426641301" duration="1359000" />
+      <workItem from="1611477809609" duration="6547000" />
+      <workItem from="1611496651247" duration="1062000" />
+      <workItem from="1611500511858" duration="864000" />
+      <workItem from="1611508529138" duration="2213000" />
+      <workItem from="1611551505066" duration="22000" />
+      <workItem from="1611669465879" duration="2976000" />
     </task>
     <servers />
   </component>

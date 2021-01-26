@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Sachini Umayangana</title>
-    <link href="assests/css/normalize.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link rel="icon" href="assests/icons/schini.png">
+    <link href="css/Responsive_Style.css">
     <meta name="keyworkd" content="Sachini Umayangana Software Engineering">
     <meta name="description" content="">
     <meta name="theme-color" content="green">
@@ -13,6 +14,11 @@
 
     <style>
 
+
+
+
+
+        /*==================*Full Profile content*===============================*/
         body{
             margin: 0;
         }
@@ -23,8 +29,12 @@
             overflow: hidden;
             position: relative;
         }
+        /*==================*Full Profile content*===============================*/
 
-        /*============sachini icon====================*/
+
+
+        /*==================*First Page*==========================================*/
+        /*==================*logo*================*/
         img{
             width: 8vw;
             height: 10vh;
@@ -40,7 +50,7 @@
         main{
             position: relative;
         }
-        /*=============nav of socisl media===============*/
+        /*==========*social media navigation*===========*/
         main>div{
             position: fixed;
             width: 2.5vw;
@@ -51,9 +61,35 @@
 
         }
 
+        /*==================Tablet responzive===================*/
+
+        @media all and (min-width: 425px) and (max-width: 768px){
+            main>div{
+                width: 0;
+                height: 0;
+            }
+        }
+
+        /*==================Tablet responzive===================*/
 
 
-        /*=========sachini umayangana======================*/
+        /*=====section inside social media nav=========*/
+        main>div>section{
+            width: 2vw;
+            height: 45vh;
+            position: absolute;
+            top: 1.5vh;
+            left: 0.3vw;
+            background: #405A6B;
+        }
+        @media all and (min-width: 425px) and (max-width: 768px){
+            main>div>section{
+                width: 0;
+
+            }
+        }
+
+        /*==========*name inside left navigation*======*/
         main>div>h5{
             text-align: center;
             width: 400px;
@@ -64,21 +100,66 @@
             top: 20vh;
             font-size: 1.2vw;
         }
+
+        /*==================Tablet responzive===================*/
+
+        @media all and (min-width: 425px) and (max-width: 768px){
+            main>div>h5{
+                text-align: center;
+                width: 400px;
+                font-family: Castellar;
+                position: absolute;
+                transform: rotate(-0deg);
+                left: 26.5vw;
+                top: -23vh;
+                font-size: 2vw;
+                color: #E3E3E3;
+            }
+        }
+
+        /*==================Tablet responzive===================*/
+
+
+        /*=========1024px responzive=======*/
+
+        @media all and (min-width: 768px) and (max-width: 1024px){
+            main>div>h5{
+                text-align: center;
+                width: 400px;
+                font-family: Castellar;
+                position: absolute;
+                transform: rotate(-90deg);
+                left: -18.5vw;
+                top: 20vh;
+                font-size: 1.2vw;
+            }
+        }
+        /*==========*name inside left navigation*======*/
+
+        /*==============================================================*/
         main>div:nth-child(2){
             top: 25vh;
             right: 0;
         }
-        /*=====section inside social media nav=========*/
-        main>div>section{
-            width: 2vw;
-            height: 45vh;
-            position: absolute;
-            top: 1.5vh;
-            left: 0.3vw;
-            background: #405A6B;
+        /*==================Tablet responzive===================*/
+
+        @media all and (min-width: 425px) and (max-width: 768px){
+            main>div:nth-child(2){
+                text-align: center;
+                width: 400px;
+                font-family: Castellar;
+                position: absolute;
+                transform: rotate(-0deg);
+                left: 25.5vw;
+                top: -25vh;
+                font-size: 2.2vw;
+            }
         }
 
+        /*==================Tablet responzive===================*/
 
+
+        /*==========*social media images*======*/
 
         #soial>img{
             width: 20px;
@@ -87,6 +168,12 @@
             background-position: center;
             background-size: cover;
             left: -5px;
+        }
+        @media all and (min-width: 425px) and (max-width: 768px){
+            #soial>img{
+                width: 0;
+                height: 0;
+            }
         }
 
         #soial>img:nth-child(1){
@@ -124,7 +211,7 @@
         }
 
 
-        /*============photo=====================*/
+        /*============*wallpaper*=====================*/
 
         main>nav{
             width: 39vw;
@@ -133,8 +220,44 @@
             left: 168px;
             position: relative;
             overflow: hidden;
-
         }
+
+
+
+        /*==================Mobile S responzive===================*/
+        @media all and (min-width: 0px) and (max-width: 320px){
+            main>nav{
+                position: absolute;
+                left: 0;
+                font-family: "Baskerville Old Face";
+                font-size: 40px;
+                color: #E3E3E3;
+                height: 50vh;
+                width: 50vw;
+                top: 0;
+            }
+
+
+            main>nav>h2{
+                width: 0;
+            }
+
+            main>h2{
+                width: 0;
+            }
+        }
+        /*==================Tablet responzive===================*/
+
+        @media all and (min-width: 425px) and (max-width: 768px){
+            main>nav{
+                width: 84vw;
+                height: 57vh;
+                top: 75px;
+                left: 8vw;
+            }
+        }
+
+        /*==================Tablet responzive===================*/
 
         #frame{
             width: 400%;
@@ -199,9 +322,45 @@
             position: absolute;
             right: 0;
             font-family: "Baskerville Old Face";
-            font-size: 35px;
+            font-size: 40px;
             color: #274659;
             animation: 3s heading infinite alternate ;
+        }
+        @media all and (min-width: 425px) and (max-width: 768px){
+            main>nav>h5{
+                position: absolute;
+                right: 400px;
+                font-family: "Baskerville Old Face";
+                font-size: 35px;
+                color: #274659;
+                animation: 3s heading infinite alternate ;
+                width: 200px;
+            }
+
+        }
+        main>nav>h6{
+
+            right: 0;
+        }
+
+        @media all and (min-width: 768px) and (max-width: 768px){
+            main>nav>h6{
+                position: absolute;
+                right: 35px;
+                font-family: "Baskerville Old Face";
+                font-size: 0;
+                color: #274659;
+                animation: 3s heading infinite alternate ;
+            }
+
+        }
+        /*========================1024px resolution==============================*/
+
+        @media all and (min-width: 768px) and (max-width: 1024px){
+            main>nav>h5{
+                font-size: 29px;
+            }
+
         }
         @keyframes heading{
             0%{
@@ -213,16 +372,38 @@
         }
         main>h5{
             position: absolute;
-            left: 50vw;
+            left:50vw;
             font-family: "Baskerville Old Face";
-            font-size: 35px;
+            font-size: 40px;
             color: #E3E3E3;
             top: 0;
             animation: 3s heading infinite alternate ;
         }
 
 
-        /*============para=================*/
+        @media all and (min-width: 425px) and (max-width: 768px){
+            main>h5{
+                position: absolute;
+                left: 30.8vw;
+                font-family: "Baskerville Old Face";
+                font-size: 35px;
+                color: #274659;
+                animation: 3s heading infinite alternate ;
+                width: 500px;
+            }
+
+        }
+        /*========================1024px==============================*/
+
+        @media all and (min-width: 768px) and (max-width: 1024px){
+            main>h5{
+                left:55.8vw;
+                font-size: 29px;
+            }
+        }
+
+
+        /*============paragraph=================*/
 
         main>nav>p{
             position: absolute;
@@ -254,7 +435,7 @@
 
         main>p{
             position: absolute;
-            left: 50vw;
+            left: 50.2vw;
             font-family: "Baskerville Old Face";
             color: #E3E3E3;
             top: 51vh;
@@ -265,6 +446,14 @@
             font-size: 1.5vw;
 
         }
+        /*========================1024px==============================*/
+
+        @media all and (min-width: 768px) and (max-width: 1024px){
+            main>p{
+                left: 55.8vw;
+            }
+        }
+
 
         /*==========read more part=============*/
 
@@ -289,8 +478,8 @@
                 border-bottom: 3em solid #A0AAB3;
             }
             25%,49%{
-                  border-bottom: 3em solid grey;
-              }
+                border-bottom: 3em solid grey;
+            }
             50%,74%{
                 border-bottom: 3em solid #A0AAB3;
             }
@@ -322,9 +511,36 @@
             color: #A0AAB3;
             font-family: Castellar;
         }
+        /*==================Tablet responzive===================*/
+
+        @media all and (min-width: 425px) and (max-width: 768px){
+            section>aside{
+                width: 0;
+                height: 0;
+            }
+
+            main>aside>h5{
+                font-size: 0;
+            }
+
+            main>nav>div>h5{
+                font-size: 0;
+            }
+        }
+
+        /*==================Tablet responzive===================*/
+
+        /*========================1024px==============================*/
+
+        @media all and (min-width: 768px) and (max-width: 1024px){
+            main>aside>h5{
+                top: 69vh;
+                left: 55.7vw;
+            }
+        }
 
 
-        /*===========================about me=====================*/
+        /*===========================Page-2 About me=====================*/
 
         #AboutMe{
             height: 70vh;
@@ -337,6 +553,31 @@
             animation: 6s dissapear infinite alternate;
 
         }
+
+        /*==================Mobile S responzive===================*/
+        @media all and (min-width: 0px) and (max-width: 320px){
+            main>nav{
+                position: absolute;
+                left:0;
+                font-family: "Baskerville Old Face";
+                font-size: 40px;
+                color: #E3E3E3;
+                height: 50vh;
+                width: 50vw;
+                top: 0;
+                animation: 3s heading infinite;
+            }
+        }
+        /*==================Tablet responzive===================*/
+
+        @media all and (min-width: 425px) and (max-width: 768px){
+            #AboutMe{
+                top: 49vh;
+            }
+        }
+
+        /*==================Tablet responzive===================*/
+
 
         @keyframes dissapear {
             0%{
@@ -362,25 +603,6 @@
             position: absolute;
         }
 
-        /*section>#AboutMe>div:nth-child(1){*/
-        /*    background: url("assests/img/WhatsApp Image 2021-01-17 at 10.32.00.jpeg");*/
-        /*    background-size: cover;*/
-        /*    background-position: center;*/
-        /*    top: 20vh;*/
-        /*    left: 5vw;*/
-        /*    position: absolute;*/
-        /*    */
-        /*}*/
-
-        /*section>#AboutMe>div:nth-child(2){*/
-        /*      background: url("assests/img/WhatsApp Image 2021-01-22 at 11.45.13.jpeg");*/
-        /*      background-size: cover;*/
-        /*      background-position: center;*/
-        /*      top: 30vh;*/
-        /*      left: 25vw;*/
-        /*      position: absolute;*/
-        /*  }*/
-
         section>#AboutMe>div:nth-child(3){
             background: url("assests/img/WhatsApp Image 2021-01-22 at 11.45.35.jpeg");
             background-size: cover;
@@ -400,11 +622,11 @@
 
         }
 
-        /*==================Skills================================*/
+        /*==================Page 3 - Skills================================*/
 
 
 
-      #Skills{
+        #Skills{
             width: 70vw;
             height: 90vh;
             border-radius: 5vw;
@@ -412,8 +634,19 @@
             position: relative;
             top: 18vh;
             left: 15vw;
-          animation: 4s change infinite alternate;
+            animation: 4s change infinite alternate;
 
+        }
+
+        @media all and (min-width: 768px) and (max-width: 1024px){
+            #Skills{
+                width: 77vw;
+                height: 120vh;
+                left: 10vw;
+                top: 15vh;
+                border: 0px solid #A0AAB3;
+                animation: none;
+            }
         }
         @keyframes change {
             0%{
@@ -431,647 +664,6 @@
         }
 
 
-        /*<!--================Projects==================================-->*/
-
-        #projects{
-            width: 55vw;
-            height: 80vh;
-            position: relative;
-
-            left: 23vw;
-            top: 25vh;
-        }
-
-        #projects>h2{
-            font-size: 2.5vw;
-            font-family: Castellar;
-            left: 20vw;
-            position: absolute;
-            color: #E3E3E3;
-        }
-
-        #projects>#pro{
-            width: 50vw;
-            height: 60vh;
-            position: absolute;
-
-            left: 2.5vw;
-            top: 20vh;
-        }
-
-        #projects>#pro>div{
-            width: 10vw;
-            height: 38vh;
-            background: white;
-            border: 1.2vw solid #38A69B;
-            position: absolute;
-            border-radius: 2.2vw;
-        }
-        #projects>#pro>div>div>section{
-            font-family: "Baskerville Old Face";
-            color: #38A69B;
-            text-align: center;
-            top: 50%;
-            width: 8vw;
-            height: 10vh;
-            left: 3vw;
-            position: absolute;
-            background: white;
-        }
-
-        #projects>#pro>div:nth-child(1)>div>section{
-
-            left: 2.5vw;
-            width: 6vw;
-
-        }
-
-        #projects>#pro>div:nth-child(2)>div>section{
-
-            left: 1vw;
-
-        }
-
-        #projects>#pro>div:nth-child(3)>div>section{
-
-            left: 1vw;
-
-        }
-        #projects>#pro>div>div>div{
-            top: 6.5vh;
-            left: 2vh;
-            position: absolute;
-            background: url("assests/img/{575F20D1-364E-4DB5-B46C-F80AD657AAA6}.png.jpg");
-            width: 70px;
-            height: 70px;
-            background-size: cover;
-            background-position: center;
-        }
-        #projects>#pro>div>div>section>a{
-            font-family: "Baskerville Old Face";
-            color: #38A69B;
-            text-align: center;
-
-            left: 0;
-            position: absolute;
-        }
-        #projects>#pro>div:nth-child(1){
-            left: 0;
-        }
-        #projects>#pro>div:nth-child(2){
-            left: 19vw;
-        }
-        #projects>#pro>div:nth-child(3){
-             right: 0;
-         }
-
-        #projects>#more{
-            width: 30vw;
-            height: 5vh;
-            position: absolute;
-            bottom: 5vh;
-            left: 19vw;
-
-
-        }
-
-        #projects>#more>div{
-            height: 2vh;
-            width: 1vw;
-            border-radius: 100%;
-            top: 0;
-            position: absolute;
-
-
-        }
-
-        #projects>#more>div>a{
-            position: absolute;
-            font-family: "Baskerville Old Face";
-            font-size: 1.5vw;
-            top: -10px;
-            left: 2px;
-            color: black;
-        }
-        #projects>#more>div:nth-child(1)>a{
-            color: #38A69B;
-        }
-        #projects>#more>div:nth-child(2)>a{
-            color: deeppink;
-        }
-        #projects>#more>div:nth-child(3)>a{
-                     color: deeppink;
-         }
-
-
-        #projects>#more>div:nth-child(2){
-            background: deeppink;
-            left: 100px;
-        }
-
-        #projects>#more>div:nth-child(1){
-            left: 130px;
-            background: #38A69B;
-        }
-
-
-        #projects>#more>div:nth-child(3){
-            background: deeppink;
-            left: 160px;
-        }
-
-
-        /*=======================================================================*/
-
-
-
-        #education{
-            width: 80vw;
-            height: 85vh;
-            position: relative;
-            left: 7vw;
-            top: 45vh;
-
-
-        }
-
-
-        .edu{
-            position: relative;
-            top: 35vh;
-            left: 39vw;
-            color: #E3E3E3;
-            font-family: "Castellar";
-            font-size: 2.5vw;
-        }
-
-        #pole{
-            width: 1vw;
-            height: 85vh;
-            position: absolute;
-            left: 40vw;
-        }
-
-        #pole>div{
-            width: 1vw;
-            height: calc(85vh/3);
-            position: absolute;
-            left: 0;
-        }
-
-        #pole>div:nth-child(1){
-            top: 0;
-            background: #95BF39;
-        }
-        #pole>div:nth-child(2){
-            top: calc((85vh/3)*1);
-            background: #38A69B;
-        }
-        #pole>div:nth-child(3){
-            top: calc((85vh/3)*2);
-            background: #BF1191;;
-        }
-
-        #pole>div:nth-child(1)>section{
-            width: 0;
-            height: 0;
-            top: calc((85vh/3)/2);
-            left: 0;
-            position: absolute;
-            border-top: .5vw solid transparent;
-            border-bottom:.5vw solid transparent;
-            border-left: 1.5vw solid #95BF39;
-        }
-
-        #pole>div:nth-child(2)>section{
-            width: 0;
-            height: 0;
-            top: calc((85vh/3)/2);
-            right: 0;
-            position: absolute;
-            border-top: .5vw solid transparent;
-            border-bottom:.5vw solid transparent;
-            border-left: 1.5vw solid #38A69B;
-            transform: rotate(180deg);
-        }
-
-        #pole>div:nth-child(3)>section{
-            width: 0;
-            height: 0;
-            top: calc((85vh/3)/2);
-            left: 0;
-            position: absolute;
-            border-top: .5vw solid transparent;
-            border-bottom:.5vw solid transparent;
-            border-left: 1.5vw solid #BF1191;
-        }
-
-        #cirsles>section{
-            width: 12vw;
-            height: 25vh;
-            border-radius: 100%;
-            position: absolute;
-            background: #95BF39;
-            right: 26.5vw;
-            top: 5.5vh;
-        }
-        #cirsles>section>div>img{
-         background-position: center;
-            background-size: cover;
-            width: 3vw;
-            height: 6vh;
-            left: 3vw;
-            top: 3.5vh;
-        }
-
-        #cirsles>section>div>h5{
-            top: 9vh;
-            left: 2.5vw;
-            position: absolute;
-            font-size: 1.2vw;
-        }
-
-        #cirsles>section>div{
-            width: 10vw;
-            height: 22vh;
-            border-radius: 100%;
-            position: absolute;
-            background: #E3E3E3;
-            left: 1vw;
-            top: 1.3vh;
-        }
-        #cirsles>section:nth-child(1){
-            top: 5vh;
-            background: #95BF39;
-        }
-
-
-        #cirsles>section:nth-child(2){
-            top: 32vh;
-            left: 27.5vw;
-            background: #38A69B;
-        }
-
-        #cirsles>section:nth-child(3){
-            top: 60vh;
-            background: #BF1191;
-        }
-
-
-        #education>h8:nth-child(1){
-            right: 0;
-            top: 10vh;
-            font-size: 1.5vw;
-            font-family: "Baskerville Old Face";
-
-        }
-        #education>h8:nth-child(2){
-            left: 0;
-            top: 50vh;
-            position: absolute;
-            font-size: 1.5vw;
-            font-family: "Baskerville Old Face";
-        }
-        #education>h8:nth-child(3){
-            right: 0;
-            bottom: 15vh;
-            position: absolute;
-            font-size: 1.5vw;
-            font-family: "Baskerville Old Face";
-        }
-
-        #education>h8{
-            color: #E3E3E3;
-            position: absolute;
-            font-size: 1.5vw;
-        }
-
-        #education>h8:nth-child(4){
-            top: 70vh;
-            left: 54vw;
-        }
-
-        #education>h8:nth-child(2){
-            top: 15vh;
-            left: 54vw;
-        }
-
-        #education>h8:nth-child(3){
-            top: 40vh;
-            left: 5vw;
-        }
-
-        #Assignments{
-             width: 80vw;
-             height: 110vh;
-             position: relative;
-             left: 15vw;
-             top: 70vh;
-         }
-
-        #Assignments>h2{
-            position: relative;
-            top: 40vh;
-            left: 0;
-            color: #E3E3E3;
-            font-family: "Castellar";
-            font-size: 2.5vw;
-        }
-        #Assignments>.whole{
-             width: 60vw;
-             height: 120vh;
-             position: absolute;
-             left: 5vw;
-            top:1vh;
-
-         }
-
-        #Assignments>.whole>div{
-            width: 13vw;
-            height: 28vh;
-            border-radius: 100%;
-            position: absolute;
-            background: #95BF39;
-            left: 1vw;
-            top: 0vh;
-
-
-        }
-
-
-        #Assignments>.whole>div>section{
-            width: 13vw;
-            height: 25vh;
-            border-radius: 100%;
-            position: absolute;
-            background: #E3E3E3;
-            left: 0;
-            top: 1.4vh;
-        }
-
-        #Assignments>.whole>div:nth-child(1){
-            background: #95BF39;
-            left: 1vw;
-            top: 1.8vh;
-            animation: 1s bounce1 infinite alternate;
-        }
-        @keyframes bounce1 {
-            0%{
-                top: 0vh;
-            }
-            100%{
-                top: 3vh;
-            }
-        }
-        #Assignments>.whole>div:nth-child(2){
-            background: #BF1191;
-            left: 14vw;
-            top: 12vh;
-            animation: 1s bounce2 infinite alternate;
-        }
-
-        @keyframes bounce2 {
-            0%{
-                top: 10vh;
-            }
-            100%{
-                top: 12.5vh;
-            }
-        }
-
-        #Assignments>.whole>div:nth-child(3){
-            background: #38A69B;
-            left: 22vw;
-            top: 38vh;
-            animation: 1s bounce3 infinite alternate;
-        }
-        @keyframes bounce3 {
-            0%{
-                top: 36vh;
-            }
-            100%{
-                top: 38.5vh;
-            }
-        }
-
-        #Assignments>.whole>div:nth-child(4){
-            background:  orange;
-            left: 14vw;
-            top: 62vh;
-            animation: 1s bounce4 infinite alternate;
-        }
-        @keyframes bounce4 {
-            0%{
-                top: 62vh;
-            }
-            100%{
-                top: 64.5vh;
-            }
-        }
-
-        #Assignments>.whole>div:nth-child(5){
-            background:#405A6B;
-            left: 1vw;
-            top:75vh;
-            animation: 1s bounce5 infinite alternate;
-        }
-
-        @keyframes bounce5 {
-            0%{
-                top: 70vh;
-            }
-            100%{
-                top: 72.5vh;
-            }
-        }
-
-        #Assignments>.whole>div>section>a{
-            position: absolute;
-            font-family: "Baskerville Old Face";
-            color: black;
-            left: 5vw;
-            top: 10vh;
-            font-size: 1.5vw;
-        }
-
-        #dots>div{
-            width: 1vw;
-            height: 2vh;
-            border-radius: 100%;
-            position: absolute;
-            background: #E3E3E3;
-            top: 48vh;
-            left: 5px;
-        }
-
-        #dots>div>a{
-            position: absolute;
-            font-size: 2vw;
-            top: -22px;
-        }
-
-        #dots>div:nth-child(1)>a{
-            color: #38A69B;
-
-        }
-        #dots>div:nth-child(2)>a{
-            color: orange;
-
-        }
-        #dots>div:nth-child(3)>a{
-            color: #95BF39;
-
-        }
-        #dots>div:nth-child(1){
-
-            background: #38A69B;
-            left: 45vw;
-
-        }
-        #dots>div:nth-child(2){
-
-            background: orange;
-            left: 50vw;
-            top: 48vh;
-        }
-        #dots>div:nth-child(3){
-
-            background: #95BF39;
-            left: 55vw;
-
-        }
-
-        #leave{
-            position: relative;
-            top: 120vh;
-            left: 15vw;
-            color: #E3E3E3;
-            font-family: "Castellar";
-            font-size: 1.5vw;
-        }
-
-        #comments{
-            width: 70vw;
-            height: 80vh;
-            position: relative;
-            left: 15vw;
-            top: 120vh;
-            border: 1px solid #E3E3E3;
-        }
-
-        #comments>h8{
-            color: #E3E3E3;
-            position: absolute;
-            left: 4vh;
-            font-size: 1.5vw;
-        }
-
-        #comments>h8:nth-child(1){
-            top: 15vh;
-        }
-
-        #comments>h8{
-            top: 45vh;
-        }
-
-        #comments>div{
-            width: 50vw;
-            position: absolute;
-            left: 15vw;
-            border: 1px solid #E3E3E3;
-
-        }
-
-        #comments>div:nth-child(2){
-           height: 5vh;
-           top: 13.5vh;
-        }
-
-        #comments>div:nth-child(3){
-            height: 30vh;
-            top: 35vh;
-        }
-
-        #ccc{
-            width: 52vw;
-            height: 30vh;
-            position: absolute;
-            left: 10vw;
-
-            bottom: -25vh;
-        }
-        #row{
-            width: 30vw;
-            height: 30vh;
-            position: absolute;
-            left:10vw;
-            top: 2.5vh;
-        }
-        #row>img{
-             width: 3vw;
-             height: 5vh;
-             position: absolute;
-
-
-         }
-        #row>img:nth-child(1){
-            left: 5vw;
-            background-size: cover;
-            background-position: center;
-        }
-        #row>img:nth-child(2){
-
-            left: 10vw;
-            background-size: cover;
-            background-position: center;
-        }
-        #row>img:nth-child(3){
-
-            left: 15vw;
-            background-size: cover;
-            background-position: center;
-        }
-        #row>img:nth-child(4){
-            left: 20vw;
-            background-size: cover;
-            background-position: center;
-        }
-        #row>img:nth-child(5){
-            left: 25vw;
-            background-size: cover;
-            background-position: center;
-        }
-
-
-        #row>h8{
-            width: 20vw;
-            height: 20vh;
-            position: absolute;
-            left: 5vw;
-            color: black;
-            top: 10vh;
-            font-size: 1.5vw;
-            text-align: center;
-            font-family: "Baskerville Old Face";
-        }
-
-
-        footer{
-            height: 12vh;
-            background: #405A6B;
-            position: relative;
-             }
-
-        footer>div{
-            width: 7vw;
-            height: 10vh;
-            top: 1vh;
-            left: 45vw;
-            background: url("assests/icons/schini.png");
-            background-size: cover;
-            background-position: center;
-            position: absolute;
-        }
 
         #all{
             width: 60vw;
@@ -1082,10 +674,17 @@
 
         }
 
+        @media all and (min-width: 768px) and (max-width: 1024px){
+            #all{
+                width: 77vw;
+                height: 120vh;
+                left: -8vw;
+                top: 0;
+            }
+        }
 
 
-
-/*===============container===================*/
+        /*===============container===================*/
         #all>div{
             width: 300px;
             height: 300px;
@@ -1104,6 +703,8 @@
         }
 
 
+
+
         #all>div::before{
             content: "";
             width: 0;
@@ -1114,6 +715,7 @@
             border-right: 90px solid transparent;
         }
 
+
         #all>div::after{
             content: "";
             width: 0;
@@ -1123,22 +725,17 @@
             border-left: 90px solid transparent;
             border-right: 90px solid transparent;
         }
-/*==========================1=============================*/
+
+
+        /*==========================1=============================*/
 
         #all>div:nth-child(1){
             left: 350px;
             /*border: 1px solid #E3E3E3;*/
         }
 
-        #all>div:nth-child(1)>h2{
-            font-family: Castellar;
-            color: #E3E3E3;
-            font-size: 2vw;
-            position: absolute;
-            top: 7vw;
-            left: 32vh;
-            transform: rotate(-90deg);
-        }
+
+
 
         #all>div:nth-child(1)>section:nth-child(1){
             background-color: #95BF39;
@@ -1152,7 +749,7 @@
         #all>div:nth-child(1)::after{
             border-top: 42px solid #95BF39;
         }
-/*=====================2==============================*/
+        /*=====================2==============================*/
 
         #all>div:nth-child(2){
             top:100px;
@@ -1286,20 +883,20 @@
 
         #all>div:nth-child(3)>section>div{
 
-             background:  url("assests/icons/icons8-php-50 (1).png");
-             top:45px;
-             left: 45px;
-             background-position: center;
-             background-size: cover;
-         }
+            background:  url("assests/icons/icons8-php-50 (1).png");
+            top:45px;
+            left: 45px;
+            background-position: center;
+            background-size: cover;
+        }
         #all>div:nth-child(4)>section>div{
 
-              background:  url("assests/icons/icons8-css-filetype-26.png");
-              top:45px;
-              left: 50px;
-              background-position: center;
-              background-size: cover;
-          }
+            background:  url("assests/icons/icons8-css-filetype-26.png");
+            top:45px;
+            left: 50px;
+            background-position: center;
+            background-size: cover;
+        }
 
         #all>div:nth-child(5)>section>div{
 
@@ -1336,7 +933,7 @@
             top:25px;
             left: 1.8px;
         }
-/*============================================*/
+        /*============================================*/
 
         #all>div:nth-child(1)>section:nth-child(2){
             width: 15px;
@@ -1493,6 +1090,690 @@
             top: -29px;
             left: 2.8px;
         }
+
+        /*<!--================Page 4 - Projects==================================-->*/
+
+        #projects{
+            width: 55vw;
+            height: 80vh;
+            position: relative;
+
+            left: 23vw;
+            top: 25vh;
+        }
+
+        #projects>h2{
+            font-size: 2.5vw;
+            font-family: Castellar;
+            left: 20vw;
+            position: absolute;
+            color: #E3E3E3;
+        }
+
+        #projects>#pro{
+            width: 50vw;
+            height: 60vh;
+            position: absolute;
+
+            left: 2.5vw;
+            top: 20vh;
+        }
+
+        #projects>#pro>div{
+            width: 10vw;
+            height: 38vh;
+            background: white;
+            border: 1.2vw solid #38A69B;
+            position: absolute;
+            border-radius: 2.2vw;
+        }
+        #projects>#pro>div>div>section{
+            font-family: "Baskerville Old Face";
+            color: #38A69B;
+            text-align: center;
+            top: 50%;
+            width: 8vw;
+            height: 10vh;
+            left: 3vw;
+            position: absolute;
+            background: white;
+        }
+
+        #projects>#pro>div:nth-child(1)>div>section{
+
+            left: 2.5vw;
+            width: 6vw;
+
+        }
+
+        #projects>#pro>div:nth-child(2)>div>section{
+
+            left: 1vw;
+
+        }
+
+        #projects>#pro>div:nth-child(3)>div>section{
+
+            left: 1vw;
+
+        }
+        #projects>#pro>div>div>div{
+            top: 6.5vh;
+            left: 2vh;
+            position: absolute;
+            background: url("assests/img/{575F20D1-364E-4DB5-B46C-F80AD657AAA6}.png.jpg");
+            width: 70px;
+            height: 70px;
+            background-size: cover;
+            background-position: center;
+        }
+        #projects>#pro>div>div>section>a{
+            font-family: "Baskerville Old Face";
+            color: #38A69B;
+            text-align: center;
+
+            left: 0;
+            position: absolute;
+        }
+
+
+
+
+        @media all and (min-width: 768px) and (max-width: 1024px){
+            #projects>#pro>div>div>section>a{
+                font-size: 1vw;
+                top: 2vh;
+            }
+        }
+
+
+        #projects>#pro>div:nth-child(1){
+            left: 0;
+        }
+        #projects>#pro>div:nth-child(2){
+            left: 19vw;
+        }
+        #projects>#pro>div:nth-child(3){
+            right: 0;
+        }
+
+        #projects>#more{
+            width: 30vw;
+            height: 5vh;
+            position: absolute;
+            bottom: 5vh;
+            left: 19vw;
+
+
+        }
+
+
+        @media all and (min-width: 768px) and (max-width: 1024px){
+            #projects>#more{
+                left:14vw;
+            }
+        }
+        #projects>#more>div{
+            height: 2vh;
+            width: 1vw;
+            border-radius: 100%;
+            top: 0;
+            position: absolute;
+
+
+        }
+
+        #projects>#more>div>a{
+            position: absolute;
+            font-family: "Baskerville Old Face";
+            font-size: 1.5vw;
+            top: -10px;
+            left: 2px;
+            color: black;
+        }
+        #projects>#more>div:nth-child(1)>a{
+            color: #38A69B;
+        }
+        #projects>#more>div:nth-child(2)>a{
+            color: deeppink;
+        }
+        #projects>#more>div:nth-child(3)>a{
+            color: deeppink;
+        }
+
+
+        #projects>#more>div:nth-child(2){
+            background: deeppink;
+            left: 100px;
+        }
+
+        #projects>#more>div:nth-child(1){
+            left: 130px;
+            background: #38A69B;
+        }
+
+
+        #projects>#more>div:nth-child(3){
+            background: deeppink;
+            left: 160px;
+        }
+
+
+        /*========================Page 5 - Education===============================================*/
+
+
+
+        #education{
+            width: 80vw;
+            height: 85vh;
+            position: relative;
+            left: 7vw;
+            top: 45vh;
+
+
+        }
+
+
+        .edu{
+            position: relative;
+            top: 35vh;
+            left: 39vw;
+            color: #E3E3E3;
+            font-family: "Castellar";
+            font-size: 2.5vw;
+        }
+
+        #pole{
+            width: 1vw;
+            height: 85vh;
+            position: absolute;
+            left: 40vw;
+        }
+
+        #pole>div{
+            width: 1vw;
+            height: calc(85vh/3);
+            position: absolute;
+            left: 0;
+        }
+
+        #pole>div:nth-child(1){
+            top: 0;
+            background: #95BF39;
+        }
+        #pole>div:nth-child(2){
+            top: calc((85vh/3)*1);
+            background: #38A69B;
+        }
+        #pole>div:nth-child(3){
+            top: calc((85vh/3)*2);
+            background: #BF1191;;
+        }
+
+        #pole>div:nth-child(1)>section{
+            width: 0;
+            height: 0;
+            top: calc((85vh/3)/2);
+            left: 0;
+            position: absolute;
+            border-top: .5vw solid transparent;
+            border-bottom:.5vw solid transparent;
+            border-left: 1.5vw solid #95BF39;
+        }
+
+        #pole>div:nth-child(2)>section{
+            width: 0;
+            height: 0;
+            top: calc((85vh/3)/2);
+            right: 0;
+            position: absolute;
+            border-top: .5vw solid transparent;
+            border-bottom:.5vw solid transparent;
+            border-left: 1.5vw solid #38A69B;
+            transform: rotate(180deg);
+        }
+
+        #pole>div:nth-child(3)>section{
+            width: 0;
+            height: 0;
+            top: calc((85vh/3)/2);
+            left: 0;
+            position: absolute;
+            border-top: .5vw solid transparent;
+            border-bottom:.5vw solid transparent;
+            border-left: 1.5vw solid #BF1191;
+        }
+
+        #cirsles>section{
+            width: 12vw;
+            height: 25vh;
+            border-radius: 100%;
+            position: absolute;
+            background: #95BF39;
+            right: 26.5vw;
+            top: 5.5vh;
+        }
+        #cirsles>section>div>img{
+            background-position: center;
+            background-size: cover;
+            width: 3vw;
+            height: 6vh;
+            left: 3vw;
+            top: 3.5vh;
+        }
+
+        #cirsles>section>div>h5{
+            top: 9vh;
+            left: 2.5vw;
+            position: absolute;
+            font-size: 1.2vw;
+        }
+
+        #cirsles>section>div{
+            width: 10vw;
+            height: 22vh;
+            border-radius: 100%;
+            position: absolute;
+            background: #E3E3E3;
+            left: 1vw;
+            top: 1.3vh;
+        }
+        #cirsles>section:nth-child(1){
+            top: 5vh;
+            background: #95BF39;
+        }
+
+
+        #cirsles>section:nth-child(2){
+            top: 32vh;
+            left: 27.5vw;
+            background: #38A69B;
+        }
+
+        #cirsles>section:nth-child(3){
+            top: 60vh;
+            background: #BF1191;
+        }
+
+
+        #education>h8:nth-child(1){
+            right: 0;
+            top: 10vh;
+            font-size: 1.5vw;
+            font-family: "Baskerville Old Face";
+
+        }
+        #education>h8:nth-child(2){
+            left: 0;
+            top: 50vh;
+            position: absolute;
+            font-size: 1.5vw;
+            font-family: "Baskerville Old Face";
+        }
+        #education>h8:nth-child(3){
+            right: 0;
+            bottom: 15vh;
+            position: absolute;
+            font-size: 1.5vw;
+            font-family: "Baskerville Old Face";
+        }
+
+        #education>h8{
+            color: #E3E3E3;
+            position: absolute;
+            font-size: 1.5vw;
+        }
+
+        #education>h8:nth-child(4){
+            top: 70vh;
+            left: 54vw;
+        }
+
+        #education>h8:nth-child(2){
+            top: 15vh;
+            left: 54vw;
+        }
+
+        #education>h8:nth-child(3){
+            top: 40vh;
+            left: 5vw;
+        }
+
+        /*========================Page 6 - Assignments===============================================*/
+
+
+        #Assignments{
+            width: 80vw;
+            height: 110vh;
+            position: relative;
+            left: 15vw;
+            top: 70vh;
+        }
+
+        #Assignments>h2{
+            position: relative;
+            top: 40vh;
+            left: 0;
+            color: #E3E3E3;
+            font-family: "Castellar";
+            font-size: 2.5vw;
+        }
+        #Assignments>.whole{
+            width: 60vw;
+            height: 120vh;
+            position: absolute;
+            left: 5vw;
+            top:1vh;
+
+        }
+
+        #Assignments>.whole>div{
+            width: 13vw;
+            height: 28vh;
+            border-radius: 100%;
+            position: absolute;
+            background: #95BF39;
+            left: 1vw;
+            top: 0vh;
+
+
+        }
+
+
+        #Assignments>.whole>div>section{
+            width: 13vw;
+            height: 25vh;
+            border-radius: 100%;
+            position: absolute;
+            background: #E3E3E3;
+            left: 0;
+            top: 1.4vh;
+        }
+
+        #Assignments>.whole>div:nth-child(1){
+            background: #95BF39;
+            left: 1vw;
+            top: 1.8vh;
+            animation: 1s bounce1 infinite alternate;
+        }
+        @keyframes bounce1 {
+            0%{
+                top: 0vh;
+            }
+            100%{
+                top: 3vh;
+            }
+        }
+        #Assignments>.whole>div:nth-child(2){
+            background: #BF1191;
+            left: 14vw;
+            top: 12vh;
+            animation: 1s bounce2 infinite alternate;
+        }
+
+        @keyframes bounce2 {
+            0%{
+                top: 10vh;
+            }
+            100%{
+                top: 12.5vh;
+            }
+        }
+
+        #Assignments>.whole>div:nth-child(3){
+            background: #38A69B;
+            left: 22vw;
+            top: 38vh;
+            animation: 1s bounce3 infinite alternate;
+        }
+        @keyframes bounce3 {
+            0%{
+                top: 36vh;
+            }
+            100%{
+                top: 38.5vh;
+            }
+        }
+
+        #Assignments>.whole>div:nth-child(4){
+            background:  orange;
+            left: 14vw;
+            top: 62vh;
+            animation: 1s bounce4 infinite alternate;
+        }
+        @keyframes bounce4 {
+            0%{
+                top: 62vh;
+            }
+            100%{
+                top: 64.5vh;
+            }
+        }
+
+        #Assignments>.whole>div:nth-child(5){
+            background:#405A6B;
+            left: 1vw;
+            top:75vh;
+            animation: 1s bounce5 infinite alternate;
+        }
+
+        @keyframes bounce5 {
+            0%{
+                top: 70vh;
+            }
+            100%{
+                top: 72.5vh;
+            }
+        }
+
+        #Assignments>.whole>div>section>a{
+            position: absolute;
+            font-family: "Baskerville Old Face";
+            color: black;
+            left: 5vw;
+            top: 10vh;
+            font-size: 1.5vw;
+        }
+
+        #dots>div{
+            width: 1vw;
+            height: 2vh;
+            border-radius: 100%;
+            position: absolute;
+            background: #E3E3E3;
+            top: 48vh;
+            left: 5px;
+        }
+
+        #dots>div>a{
+            position: absolute;
+            font-size: 2vw;
+            top: -22px;
+        }
+        @media all and (min-width: 768px) and (max-width: 1024px){
+            #dots>div>a{
+                position: absolute;
+                font-size: 1.8vw;
+                top: -14px;
+            }
+        }
+        #dots>div:nth-child(1)>a{
+            color: #38A69B;
+
+        }
+        #dots>div:nth-child(2)>a{
+            color: orange;
+
+        }
+        #dots>div:nth-child(3)>a{
+            color: #95BF39;
+
+        }
+        #dots>div:nth-child(1){
+
+            background: #38A69B;
+            left: 45vw;
+
+        }
+        #dots>div:nth-child(2){
+
+            background: orange;
+            left: 50vw;
+            top: 48vh;
+        }
+        #dots>div:nth-child(3){
+
+            background: #95BF39;
+            left: 55vw;
+
+        }
+
+        #leave{
+            position: relative;
+            top: 120vh;
+            left: 15vw;
+            color: #E3E3E3;
+            font-family: "Castellar";
+            font-size: 1.5vw;
+        }
+
+        @media all and (min-width: 768px) and (max-width: 1024px){
+            #leave{
+                top: 77vh;
+            }
+        }
+
+        /*========================Page 7 - Comment Section===============================================*/
+
+        #comments{
+            width: 70vw;
+            height: 80vh;
+            position: relative;
+            left: 15vw;
+            top: 120vh;
+            border: 1px solid #E3E3E3;
+        }
+
+        @media all and (min-width: 768px) and (max-width: 1024px){
+            #comments{
+                top: 80vh;
+            }
+        }
+
+        #comments>h8{
+            color: #E3E3E3;
+            position: absolute;
+            left: 4vh;
+            font-size: 1.5vw;
+        }
+
+        #comments>h8:nth-child(1){
+            top: 15vh;
+        }
+
+        #comments>h8{
+            top: 45vh;
+        }
+
+        #comments>div{
+            width: 50vw;
+            position: absolute;
+            left: 15vw;
+            border: 1px solid #E3E3E3;
+
+        }
+
+        #comments>div:nth-child(2){
+            height: 5vh;
+            top: 13.5vh;
+        }
+
+        #comments>div:nth-child(3){
+            height: 30vh;
+            top: 35vh;
+        }
+
+        #ccc{
+            width: 52vw;
+            height: 30vh;
+            position: absolute;
+            left: 10vw;
+
+            bottom: -25vh;
+        }
+        #row{
+            width: 30vw;
+            height: 30vh;
+            position: absolute;
+            left:10vw;
+            top: 2.5vh;
+        }
+        #row>img{
+            width: 3vw;
+            height: 5vh;
+            position: absolute;
+
+
+        }
+        #row>img:nth-child(1){
+            left: 5vw;
+            background-size: cover;
+            background-position: center;
+        }
+        #row>img:nth-child(2){
+
+            left: 10vw;
+            background-size: cover;
+            background-position: center;
+        }
+        #row>img:nth-child(3){
+
+            left: 15vw;
+            background-size: cover;
+            background-position: center;
+        }
+        #row>img:nth-child(4){
+            left: 20vw;
+            background-size: cover;
+            background-position: center;
+        }
+        #row>img:nth-child(5){
+            left: 25vw;
+            background-size: cover;
+            background-position: center;
+        }
+
+
+        #row>h8{
+            width: 20vw;
+            height: 20vh;
+            position: absolute;
+            left: 5vw;
+            color: black;
+            top: 10vh;
+            font-size: 1.5vw;
+            text-align: center;
+            font-family: "Baskerville Old Face";
+        }
+
+/*==================================footer================================================*/
+        footer{
+            height: 12vh;
+            background: #405A6B;
+            position: relative;
+        }
+
+        footer>div{
+            width: 7vw;
+            height: 10vh;
+            top: 1vh;
+            left: 45vw;
+            background: url("assests/icons/schini.png");
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+        }
+
     </style>
 
 
@@ -1508,16 +1789,16 @@
         <area shape="default" coords="10,10,10" href="https://www.facebook.com/emalie.rose.33/" alt="facebook" target="_blank">
     </map>
     <map name="insta">
-        <area shape="default" coords="10,10,10" href="https://www.instagram.com/sachini_umayangana/" alt="facebook" target="_blank">
+        <area shape="default" coords="10,10,10" href="https://www.instagram.com/sachini_umayangana/" alt="insta" target="_blank">
     </map>
     <map name="linkedin">
-        <area shape="default" coords="10,10,10" href="https://www.facebook.com/emalie.rose.33/" alt="facebook" target="_blank">
+        <area shape="default" coords="10,10,10" href="https://www.linkedin.com/in/sachini-umayangana-5271401bb//" alt="linkedin" target="_blank">
     </map>
     <map name="pinterest">
-        <area shape="default" coords="10,10,10" href="https://www.pinterest.com/sachiumay/_saved/" alt="facebook" target="_blank">
+        <area shape="default" coords="10,10,10" href="https://www.pinterest.com/sachiumay/_saved/" alt="pinterest" target="_blank">
     </map>
     <map name="twitter">
-        <area shape="default" coords="10,10,10" href="https://twitter.com/umayanagana" alt="facebook" target="_blank">
+        <area shape="default" coords="10,10,10" href="https://twitter.com/umayanagana" alt="twitter" target="_blank">
     </map>
     <!--===============Home Page===================================-->
     <main>
@@ -1544,6 +1825,7 @@
                 <section></section>
             </div>
             <h5>Bring you</h5>
+            <h6>Bring your Expectations to The Next Level</h6>
             <p>I'm a  f Come,  and my      </p>
             <div><h5>Read</h5></div>
         </nav>
@@ -1572,6 +1854,8 @@
             I hope to work on much more meaningful and unique projects in the future</h4>
     </section>
     <!--===============Skills===================================-->
+
+
      <div id="Skills">
 
         <section id="all">
@@ -1581,7 +1865,7 @@
             <div>
                 <section><div></div></section>
                 <section id="meter1"><div></div></section>
-                <h2>Skills</h2>
+
             </div>
 
 
