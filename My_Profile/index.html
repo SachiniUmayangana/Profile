@@ -93,7 +93,7 @@
             left: 0.3vw;
             background: #405A6B;
         }
-        @media all and (min-width: 425px) and (max-width: 768px){
+        @media all and (min-width: 0px) and (max-width: 768px){
             main>div>section{
                 width: 0;
 
@@ -113,7 +113,7 @@
         }
         /*==================Tablet responzive===================*/
 
-        @media all and (min-width: 425px) and (max-width: 768px){
+        @media all and (min-width: 0px) and (max-width: 768px){
             main>div>h5{
                 visibility: hidden;
             }
@@ -273,7 +273,7 @@
         }
         /*==================Tablet responzive===================*/
 
-        @media all and (min-width: 425px) and (max-width: 768px){
+        @media all and (min-width: 0px) and (max-width: 768px){
             main>nav{
                 width: 84vw;
                 height: 57vh;
@@ -352,7 +352,7 @@
             animation: 3s heading infinite alternate ;
         }
 
-        @media all and (min-width: 425px) and (max-width: 768px){
+        @media all and (min-width: 0px) and (max-width: 768px){
             main>nav>h5{
                 visibility: hidden;
             }
@@ -387,7 +387,7 @@
         }
         @keyframes heading{
             0%{
-                top: -50px;
+                top: -10px;
             }
             100%{
                 top: 68px;
@@ -1826,20 +1826,21 @@
             top: 45vh;
         }
 
-        #comments>div{
+        #comments>textarea{
             width: 50vw;
             position: absolute;
             left: 15vw;
             border: 1px solid #E3E3E3;
 
+            background: #274659;
         }
 
-        #comments>div:nth-child(2){
+        #comments>textarea:nth-child(2){
             height: 5vh;
             top: 13.5vh;
         }
 
-        #comments>div:nth-child(3){
+        #comments>textarea:nth-child(3){
             height: 30vh;
             top: 35vh;
         }
@@ -1950,6 +1951,46 @@
             }
         }
 
+
+        #aside{
+            width: 300px;
+            height: 50px;
+            /*border: 1px solid #38A69B;*/
+            right: 5px;
+            position: absolute;
+            display: flex;
+        }
+
+        aside>a{
+             color: #A0AAB3;
+         }
+        aside>a:nth-child(1){
+            left: 0px;
+            position: absolute;
+        }
+        aside>a:nth-child(2){
+             left: 100px;
+             position: absolute;
+         }
+
+        aside>a:nth-child(3){
+            left:230px;
+            position: absolute;
+        }
+        @media all and (min-width: 0px) and (max-width: 425px){
+            aside>{
+               left: 500px;
+            }
+
+            }
+        @media all and (min-width: 425px) and (max-width: 768px){
+            aside>a{
+                top: 20px;
+                color: #A0AAB3;
+            }
+
+
+        }
     </style>
 
 
@@ -1993,18 +2034,30 @@
                 <img usemap="#twitter" src="assests/icons/icons8-twitter-24.png">
             </section>
         </div>
+        <aside id="aside">
+            <a href="#frame">Home     </a>
+            <a href="#AboutMe">About me      </a>
+            <a href="#projects">Projects</a>
+
+        </aside>
+
+
         <nav>
+
             <div id="frame">
                 <section></section>
                 <section></section>
                 <section></section>
                 <section></section>
             </div>
+
+
             <h5>Bring you</h5>
 
             <p>I'm a  f Come,  and my      </p>
             <div><h5>Read</h5></div>
         </nav>
+
         <h5>r Expectations To The Next Level</h5>
         <h6>Bring your Expectations to The Next Level</h6>
         <p>ull stack developer, web designer and UI/UX designer.
@@ -2013,9 +2066,11 @@
 
             <aside ><h5>more</h5></aside>
         </p>
+
         <div>
             <h5>Sachini Umayangana</h5>
         </div>
+
     </main>
     <!--===============About me===================================-->
     <section id="AboutMe">
@@ -2187,8 +2242,8 @@
 
         <h8>Name</h8>
 
-        <div></div>
-        <div></div>
+        <textarea></textarea>
+        <textarea></textarea>
         <h8>Comment</h8>
 
         <section id="ccc">
