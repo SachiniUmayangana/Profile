@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="115d83b7-8df1-4a4c-b059-29629c8123ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assests/icons/Spin-1s-52px.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/styles/jsStyle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/css/styles" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/Responsive_Style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assests/css/Responsive_Style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/styles" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -47,17 +56,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assests/icons" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Profile\My_Profile\assests\icons" />
+      <recent name="D:\Profile\My_Profile\assests" />
+      <recent name="D:\Profile\My_Profile\assests\css" />
+      <recent name="D:\Profile\My_Profile\css" />
       <recent name="C:\Users\dell\Desktop\My_Profile" />
-      <recent name="C:\Users\dell\Desktop\My_Profile\assests" />
-      <recent name="C:\Users\dell\Desktop\My_Profile\assests\img" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Profile\My_Profile\assests\icons" />
+      <recent name="D:\Profile\My_Profile\js" />
       <recent name="C:\Users\dell\Desktop\My_Profile\assests\icons" />
       <recent name="C:\Users\dell\Desktop\My_Profile" />
     </key>
@@ -120,6 +133,19 @@
       <workItem from="1612310686685" duration="4651000" />
       <workItem from="1612319956645" duration="521000" />
       <workItem from="1612321736150" duration="5669000" />
+      <workItem from="1612328995319" duration="1416000" />
+      <workItem from="1612546432812" duration="98000" />
+      <workItem from="1613570248005" duration="10000" />
+      <workItem from="1613570282234" duration="10000" />
+      <workItem from="1615531669535" duration="1313000" />
+      <workItem from="1616437769964" duration="205000" />
+      <workItem from="1616580233268" duration="2451000" />
+      <workItem from="1616594871363" duration="3593000" />
+      <workItem from="1616671093353" duration="1526000" />
+      <workItem from="1616681130896" duration="1867000" />
+      <workItem from="1616685933343" duration="4000" />
+      <workItem from="1616685946619" duration="9000" />
+      <workItem from="1616686127175" duration="4878000" />
     </task>
     <servers />
   </component>
