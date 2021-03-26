@@ -1994,36 +1994,33 @@
             position: relative;
             width: 100vw;
             height: 100vh;
-            background: #E3E3E3;
-            url("assests/icons/Spin-1s-52px.gif")
+            background: #1B1A2F
+            url("assests/icons/b83ec9d8ac7a6f2dfaa93fa4f150e3b6.gif")
             no-repeat center;
             z-index: 9999;
+            overflow: hidden;
         }
 
-         #star {
-            width: 15px;
-            height: 15px;
-            border-radius: 100%;
-            border: 1px solid #A0AAB3;
-            background: #274659;
-        }
+        /* #star {*/
+        /*    width: 15px;*/
+        /*    height: 15px;*/
+        /*    border-radius: 100%;*/
+        /*    border: 1px solid #A0AAB3;*/
+        /*    background: #274659;*/
+        /*}*/
 
-        #wholeThing{
-            /*cursor: none;*/
-        }
+        /*#cursor{*/
+        /*    position: relative;*/
+        /*    width: 10px;*/
+        /*    height: 10px;*/
+        /*    border-radius: 50%;*/
+        /*    background: #E3E3E3;*/
+        /*    transition: 0.1s;*/
+        /*    transform: translate(-50%,-50%);*/
+        /*    pointer-events: none;*/
+        /*    mix-blend-mode: difference;*/
+        /*}*/
 
-        #cursor,cursor1
-        {
-            position: fixed;
-            width: 10px;
-            height: 10px;
-            border-radius: 50%;
-            background: #E3E3E3;
-            transition: 0.1s;
-            transform: translate(-50%,-50%);
-            pointer-events: none;
-            mix-blend-mode: difference;
-        }
 
     </style>
 
@@ -2039,13 +2036,9 @@
     <div id='loader'>
     </div>
 <!--preloader end-->
-<!--star start-->
 
-<!--star end-->
 <section id="wholeThing">
-    <div id='star'> </div>
 
-    <div id="cursor"></div>
     <map name="fb">
         <area shape="default" coords="10,10,10" href="https://www.facebook.com/emalie.rose.33/" alt="facebook" target="_blank">
     </map>
@@ -2064,7 +2057,7 @@
     <!--===============Home Page===================================-->
     <main>
 
-        <img src="assests/icons/schini.png">
+        <img id="sachi" src="assests/icons/schini.png">
 
         <div id="rightSideDiv" >
             <section id="soial">
@@ -2075,12 +2068,12 @@
                 <img usemap="#twitter" src="assests/icons/icons8-twitter-24.png">
             </section>
         </div>
+
         <aside id="aside">
             <a href="#frame">Home</a>
             <a href="#AboutMe">About me</a>
             <a href="#projects">Projects</a>
         </aside>
-
 
         <nav>
 
@@ -2114,13 +2107,10 @@
     </main>
     <!--===============About me===================================-->
     <section id="AboutMe">
+        <div></div>
+        <div></div>
+        <div></div>
 
-        <div></div>
-        <div></div>
-        <div></div>
-        <div id='star1'> </div>
-
-        <div id="cursor1"></div>
         <h4>I started my Software Engineering career in the year
             2020 after joining the IJSE-Institute of Java and
             Software Engineering.
@@ -2180,15 +2170,20 @@
         <section class="owl-carousel owl-theme" id="pro">
         <div><div><div></div><section><a href="https://github.com/SachiniUmayangana/Projects/tree/master/Techwave/">Techwave</a></section></div></div>
         <div><div><div></div><section><a href="https://github.com/SachiniUmayangana/Projects/tree/master/College">College Management System</a></section></div></div>
-        <div><div><div></div><section><a href="https://github.com/SachiniUmayangana/Projects/tree/master/VehicleParking">Vehicle Parking Project</a></section></div></div><div><div><div></div><section><a href="https://github.com/SachiniUmayangana/Projects/tree/master/VehicleParking">Vehicle Parking Project</a></section></div></div><div><div><div></div><section><a href="https://github.com/SachiniUmayangana/Projects/tree/master/VehicleParking">Vehicle Parking Project</a></section></div></div>
+        <div><div><div></div><section><a href="https://github.com/SachiniUmayangana/Projects/tree/master/VehicleParking">Vehicle Parking Project</a></section></div></div><div>
+        <div><div></div><section><a href="https://github.com/SachiniUmayangana/Projects/tree/master/VehicleParking">Vehicle Parking Project</a></section></div></div><div><div><div></div><section><a href="https://github.com/SachiniUmayangana/Projects/tree/master/VehicleParking">Vehicle Parking Project</a></section></div></div>
+            <div><div><div></div><section><a href="https://github.com/SachiniUmayangana/Projects/tree/master/Techwave/">Techwave</a></section></div></div>
+            <div><div><div></div><section><a href="https://github.com/SachiniUmayangana/Projects/tree/master/College">College Management System</a></section></div></div>
+            <div><div><div></div><section><a href="https://github.com/SachiniUmayangana/Projects/tree/master/VehicleParking">Vehicle Parking Project</a></section></div></div><div>
+            <div><div></div><section><a href="https://github.com/SachiniUmayangana/Projects/tree/master/VehicleParking">Vehicle Parking Project</a></section></div></div><div><div><div></div><section><a href="https://github.com/SachiniUmayangana/Projects/tree/master/VehicleParking">Vehicle Parking Project</a></section></div></div>
 
         </section>
 
-        <section id="more">
-            <div><a href="https://github.com/SachiniUmayangana/Projects">..</a></div>
-            <div><a href="https://github.com/SachiniUmayangana/Projects">..</a></div>
-            <div><a href="https://github.com/SachiniUmayangana/Projects">..</a></div>
-        </section>
+<!--        <section id="more">-->
+<!--            <div><a href="https://github.com/SachiniUmayangana/Projects">..</a></div>-->
+<!--            <div><a href="https://github.com/SachiniUmayangana/Projects">..</a></div>-->
+<!--            <div><a href="https://github.com/SachiniUmayangana/Projects">..</a></div>-->
+<!--        </section>-->
 
         <h2>PROJECTS</h2>
 
@@ -2302,8 +2297,8 @@
 
 
 <footer><div></div></footer>
-<script src="js/jquery-3.6.0.min.js"></script>
-<script src="styles/jsStyle.js"></script>
+<script src="assests/js/jquery-3.6.0.min.js"></script>
+<script src="assests/styles/jsStyle.js"></script>
 <script>
     var  preloader=document.getElementById('loader');
 
