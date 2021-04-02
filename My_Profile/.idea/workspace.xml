@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="115d83b7-8df1-4a4c-b059-29629c8123ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assests/icons/b83ec9d8ac7a6f2dfaa93fa4f150e3b6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/icons/65ba488626025cff82f091336fbf94bb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/icons/tumblr_c6bbd002416eeae2a2c044b476c1f118_f6ea1e92_640.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assests/styles/cssStyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assests/icons/Spin-1s-52px.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assests/styles/jsStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/assests/styles/jsStyle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/jsStyle.js" beforeDir="false" afterPath="$PROJECT_DIR$/styles/jsStyle.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,9 +32,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -51,23 +52,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assests/js" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Web_Portfolio-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Profile\My_Profile\assests\icons" />
-      <recent name="D:\Profile\My_Profile\assests\owl-Carousel" />
       <recent name="D:\Profile\My_Profile\assests" />
+      <recent name="D:\Profile\My_Profile\assests\owl-Carousel" />
       <recent name="D:\Profile\My_Profile\assests\css" />
       <recent name="D:\Profile\My_Profile\css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Profile\My_Profile\assests\js" />
+      <recent name="D:\Profile\My_Profile\assests\scss" />
+      <recent name="D:\Profile\My_Profile\assests\owl-Carousel" />
       <recent name="D:\Profile\My_Profile\assests\icons" />
       <recent name="D:\Profile\My_Profile\js" />
-      <recent name="C:\Users\dell\Desktop\My_Profile\assests\icons" />
-      <recent name="C:\Users\dell\Desktop\My_Profile" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -142,7 +144,22 @@
       <workItem from="1616685946619" duration="9000" />
       <workItem from="1616686127175" duration="6337000" />
       <workItem from="1616765220652" duration="2120000" />
-      <workItem from="1616768395324" duration="1214000" />
+      <workItem from="1616768395324" duration="1570000" />
+      <workItem from="1616770166183" duration="652000" />
+      <workItem from="1616771214406" duration="600000" />
+      <workItem from="1616772868946" duration="596000" />
+      <workItem from="1616774063792" duration="876000" />
+      <workItem from="1616835821985" duration="857000" />
+      <workItem from="1616841062374" duration="19189000" />
+      <workItem from="1616911414160" duration="1286000" />
+      <workItem from="1616919350890" duration="2004000" />
+      <workItem from="1617020236280" duration="2242000" />
+      <workItem from="1617285722138" duration="2870000" />
+      <workItem from="1617288620384" duration="10576000" />
+      <workItem from="1617300345597" duration="969000" />
+      <workItem from="1617334496524" duration="3944000" />
+      <workItem from="1617340971710" duration="463000" />
+      <workItem from="1617341459875" duration="832000" />
     </task>
     <servers />
   </component>
